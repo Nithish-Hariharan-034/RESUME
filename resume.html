@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nithish | Cybersecurity Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #e0eafc, #cfdef3);
+            color: #2d3436;
+        }
+
+        .navbar {
+            background: #2c3e50;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .nav-container h1 {
+            color: white;
+            font-size: 24px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #00b4d8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 100px auto 30px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #00b4d8;
+            border-bottom: 2px solid #00b4d8;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            padding: 8px 0;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        ul li:before {
+            content: "►";
+            color: #00b4d8;
+            position: absolute;
+            left: 0;
+            font-size: 12px;
+        }
+
+        a {
+            color: #00b4d8;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #2c3e50;
+            text-decoration: underline;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px dashed #dfe6e9;
+            margin: 20px 0;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        p.contact-info {
+            color: #636e72;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1>Nithish</h1>
+            <div class="nav-links">
+                <a href="#summary">Summary</a>
+                <a href="#education">Education</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#skills">Skills</a>
+                <a href="#languages">Languages</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1> S.Nithish Hariharan</h1>
+        <p class="contact-info">Email: nithishhariharanoff@gmail.com | Phone: 9597238913</p>
+        <p class="contact-info">LinkedIn: <a href="#" target="_blank">your-linkedin-url</a></p>
+
+        <hr>
+
+        <div class="section" id="summary">
+            <h2>Professional Summary</h2>
+            <p>
+                Aspiring cybersecurity professional currently pursuing a Bachelor's degreeF in Cybersecurity at Karpagam
+                Academy of Higher Education. Passionate about information security and programming, with hands-on
+                knowledge in C, C++, Java, and Python. Enthusiastic about gaining practical experience and contributing
+                to real-world cybersecurity solutions.
+            </p>
+        </div>
+
+        <div class="section" id="education">
+            <h2>Education</h2>
+            <p><strong>B.E. Cybersecurity</strong><br>
+                Karpagam Academy of Higher Education, Coimbatore<br>
+                Expected Graduation: [2027]</p>
+        </div>
+
+        <div class="section" id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Programming in C</li>
+                <li>Programming in C++</li>
+                <li>Java Programming</li>
+                <li>Python Programming</li>
+                <li>Introduction to Cybersecurity</li>
+            </ul>
+        </div>
+
+        <div class="section" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: C, C++, Java, Python</li>
+                <li>Cybersecurity Fundamentals</li>
+                <li>Problem Solving & Debugging</li>
+                <li>Team Collaboration</li>
+                <li>Eagerness to Learn & Adapt</li>
+            </ul>
+        </div>
+
+        <div class="section" id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>[Other Languages]</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
